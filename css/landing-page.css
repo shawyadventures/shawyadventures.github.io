@@ -28,7 +28,6 @@ h6 {
 }
 
 body {
-    overflow:hidden;
     background-color:#0f380f;
 }
 a,a:hover, a:focus {
@@ -93,7 +92,7 @@ a,a:hover, a:focus {
 
     ul.intro-social-buttons > li {
         display: block;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         padding: 0;
     }
 
@@ -109,8 +108,7 @@ a,a:hover, a:focus {
 .network-name {
     font-family: "MicroFull6x3","Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 1.5em;
     letter-spacing: 2px;
 }
 
