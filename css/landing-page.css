@@ -201,3 +201,13 @@ img {
 .buttons {
   padding-top:15px;
 }
+
+.download {
+  display: inline-block;
+  background-image: url('/img/download.png');
+  width: 156px;
+  height: 56px;
+}
+.download:hover {
+  background-image: url('/img/download_hover.png');
+}
