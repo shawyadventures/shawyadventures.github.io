@@ -31,6 +31,9 @@ body {
     overflow:hidden;
     background-color:#0f380f;
 }
+a,a:hover, a:focus {
+    color:#9bbc0f;
+}
 .btn-default {
     color:#0f380f;
     background-color:#8bac0f;
