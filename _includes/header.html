@@ -12,14 +12,13 @@
 						<h3>{{ page.subTitle }}</h3>
 						<div class="auto-resizable-iframe"><div><iframe frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/yYZDFW66DZE?rel=0&amp;showinfo=0"></iframe></div></div>
 						<h3>Prototype demo available for Windows, Mac and Linux (64bit)</h3>
-						<a href="https://shawyadventures.itch.io/shawy-adventures#download"" class="btn btn-default btn-lg"><i class="fa fa-fw"></i> <span class="network-name">Download Here</span></a>
+						<div class="buttons">
+						<a href="https://shawyadventures.itch.io/shawy-adventures#download"" class="btn btn-default btn-lg"><i class="fa fa-fw"></i> <span class="network-name">Download</span></a>
 						<ul class="list-inline intro-social-buttons">
-							{% for social in site.social %}
-							<li>
-								<a href="{{ social.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ social.title }} fa-fw"></i> <span class="network-name">{{ social.title }}</span></a>
-							</li>
-							{% endfor %}
+							<li><a href="https://facebook.com/shawyadventures"><img src="/img/fb.png"></a></li>
+							<li><a href="https://twitter.com/ShawyAdventures"><img src="/img/twitter.png"></a></li>
 						</ul>
+						</div>
 					</div>
 				</div>
 			</div>
