@@ -4,6 +4,12 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+@font-face {
+  font-family: MicroFull6x3;
+  src: url(/fonts/Micro-Full-6x3.ttf);
+}
+
 body,
 html {
     width: 100%;
@@ -17,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "MicroFull6x3","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -56,8 +62,9 @@ body {
 
 .intro-message > h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
+/*    text-shadow: 6px 6px 8px rgba(0,0,0,0.6);*/
+    text-transform: uppercase;
+    font-size: 6em;
 }
 
 .intro-divider {
@@ -67,7 +74,9 @@ body {
 }
 
 .intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+/*    text-shadow: 2px 2px 3px #0f380f;*/
+    font-size: 2em;
+    text-transform: uppercase;
 }
 
 @media(max-width:767px) {
@@ -95,9 +104,10 @@ body {
 }
 
 .network-name {
+    font-family: "MicroFull6x3","Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 24px;
+    font-weight: 700;
     letter-spacing: 2px;
 }
 
