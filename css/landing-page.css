@@ -202,12 +202,32 @@ img {
   padding-top:15px;
 }
 
-.download {
+.download img {
   display: inline-block;
   background-image: url('/img/download.png');
   width: 156px;
   height: 56px;
 }
-.download:hover {
+.download img:hover {
   background-image: url('/img/download_hover.png');
+}
+
+.facebook img {
+  display: inline-block;
+  background-image: url('/img/fb.png');
+  width: 48px;
+  height: 48px;
+}
+.facebook img:hover {
+  background-image: url('/img/fb_hover.png');
+}
+
+.twitter img {
+  display: inline-block;
+  background-image: url('/img/twitter.png');
+  width: 48px;
+  height: 48px;
+}
+.twitter img:hover {
+  background-image: url('/img/twitter_hover.png');
 }
