@@ -54,8 +54,8 @@ a,a:hover, a:focus {
 
 .intro-message {
     position: relative;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 2%;
 }
 
 .intro-message > h1 {
@@ -99,14 +99,6 @@ a,a:hover, a:focus {
         width: 100%;
     }
 }
-
-.network-name {
-    font-family: "MicroFull6x3","Helvetica Neue",Helvetica,Arial,sans-serif;
-    text-transform: uppercase;
-    font-size: 1.5em;
-    letter-spacing: 2px;
-}
-
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
@@ -126,36 +118,6 @@ a,a:hover, a:focus {
     float: left;
     width: 200px;
     border-top: 3px solid #e7e7e7;
-}
-
-.banner-social-buttons {
-    float: right;
-    margin-top: 0;
-}
-
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        float: left;
-        margin-top: 15px;
-    }
-}
-
-@media(max-width:767px) {
-    .banner h2 {
-        margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-        font-size: 3em;
-    }
-
-    ul.banner-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
 }
 
 p.copyright {
@@ -230,4 +192,35 @@ img {
 }
 .twitter img:hover {
   background-image: url('/img/twitter_hover.png');
+}
+
+.changelog h4 {
+  text-align: left;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+.changelog ul {
+  text-align: left;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+.information {
+  width:70%;
+  margin:0 auto;
+}
+.information h3 {
+  text-align: left;
+}
+
+@media(max-width:1199px) {
+}
+
+@media(max-width:767px) {
+
+.information {
+  width:90%;
+  margin:0 auto;
+}
+
 }
