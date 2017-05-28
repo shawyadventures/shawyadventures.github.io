@@ -28,14 +28,14 @@ h6 {
 }
 
 body {
-    background-color:#0f380f;
+    background-color:#132c13;
 }
 a,a:hover, a:focus {
-    color:#9bbc0f;
+    color:#b4be64;
 }
 .btn-default {
-    color:#0f380f;
-    background-color:#8bac0f;
+    color:#132c13;
+    background-color:#798831;
 }
 
 .list-inline {
@@ -49,7 +49,7 @@ a,a:hover, a:focus {
 
 .intro-header {
     text-align: center;
-    color: #8bac0f;
+    color: #798831;
 }
 
 .intro-message {
