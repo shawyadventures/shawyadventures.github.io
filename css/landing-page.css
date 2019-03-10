@@ -194,6 +194,16 @@ img {
   background-image: url('/img/twitter_hover.png');
 }
 
+.instagram img {
+  display: inline-block;
+  background-image: url('/img/instagram.png');
+  width: 48px;
+  height: 48px;
+}
+.instagram img:hover {
+  background-image: url('/img/instagram_hover.png');
+}
+
 .changelog h4 {
   text-align: left;
   font-size: 2em;
