@@ -204,6 +204,16 @@ img {
   background-image: url('/img/instagram_hover.png');
 }
 
+.presskit img {
+  display: inline-block;
+  background-image: url('/img/presskit.png');
+  width: 148px;
+  height: 48px;
+}
+.presskit img:hover {
+  background-image: url('/img/presskit_hover.png');
+}
+
 .changelog h4 {
   text-align: left;
   font-size: 2em;
@@ -218,6 +228,7 @@ img {
 .information {
   width:70%;
   margin:0 auto;
+  text-transform: uppercase;
 }
 .information h3 {
   text-align: left;
